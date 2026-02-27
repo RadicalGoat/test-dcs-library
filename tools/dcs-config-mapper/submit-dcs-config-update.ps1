@@ -10,7 +10,7 @@ param (
 $Branch      = "main"
 
 # --- CONFIGURATION ---
-$ApiUrl = "https://api.github.com/repos/__REPOOWNER__/dcs-config-library/issues"
+$ApiUrl = "https://api.github.com/repos/RadicalGoat/dcs-config-library/issues"
 $RootDir    = "C:\Utils\dcs-config-manager"
 $SecretFile = Join-Path $RootDir ".secrets-dcs-library-sim-config-bot"
 
